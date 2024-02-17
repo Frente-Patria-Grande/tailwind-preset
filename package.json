@@ -2,7 +2,7 @@
   "name": "@frente-patria-grande/tailwind-preset",
   "version": "0.1.0",
   "description": "A tailwindcss configuration preset for Frente Patria Grande's projects.",
-  "main": "preset.js",
+  "main": "src/preset.js",
   "scripts": {
     "build": "babel --presets env src -d ./",
     "dev": "babel --presets env src -d ./ --watch"
@@ -20,9 +20,6 @@
   "license": "MIT",
   "homepage": "https://github.com/Frente-Patria-Grande/tailwind-preset",
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10",
     "tailwindcss": "^3.4.1"
   }
 }
