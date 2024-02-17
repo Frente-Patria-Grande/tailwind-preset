@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Graphik', 'Inter', ...defaultTheme.fontFamily.sans],
+                sans: ['Inter', ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 'ah-blue': {
@@ -62,5 +62,9 @@ module.exports = {
             },
         }
     },
-    plugins: [],
+    plugins: [
+        '@tailwindcss/aspect-ratio',
+        '@tailwindcss/forms',
+        '@tailwindcss/typography',
+    ],
 }
