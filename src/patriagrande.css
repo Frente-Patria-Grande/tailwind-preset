@@ -1,4 +1,17 @@
 @font-face {
-    font-family: Acumin;
+    font-family: AcuminNormal;
+    font-stretch: normal;
+    src: url(fonts/AcuminVariableConcept.otf);
+}
+
+@font-face {
+    font-family: AcuminCondensed;
+    font-stretch: extra-condensed;
+    src: url(fonts/AcuminVariableConcept.otf);
+}
+
+@font-face {
+    font-family: AcuminWide;
+    font-stretch: expanded;
     src: url(fonts/AcuminVariableConcept.otf);
 }
