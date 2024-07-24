@@ -1,12 +1,13 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Barlow', 'Inter', ...defaultTheme.fontFamily.sans],
-                primary: ['Barlow'],
-                secondary: ['Acumin'],
+                sans: ['Acumin', ...defaultTheme.fontFamily.sans],
+                primary: ['Acumin'],
+                secondary: ['Barlow Semi Condensed'],
             },
             colors: {
                 'pg-blue': {
