@@ -1,6 +1,6 @@
 {
   "name": "@frente-patria-grande/tailwind-preset",
-  "version": "0.1.8",
+  "version": "0.1.11",
   "description": "A tailwindcss configuration preset for Frente Patria Grande's projects.",
   "main": "src/preset.js",
   "types": "src/preset.d.ts",

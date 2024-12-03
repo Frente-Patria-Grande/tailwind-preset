@@ -1,11 +1,11 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+import DefaultTheme from 'tailwindcss/defaultTheme.js';
 
 /** @type {import('tailwindcss').Config} */
 export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Acumin', ...defaultTheme.fontFamily.sans],
+                sans: ['Acumin', ...DefaultTheme.fontFamily.sans],
                 primary: ['Acumin'],
                 secondary: ['Barlow Semi Condensed'],
             },
